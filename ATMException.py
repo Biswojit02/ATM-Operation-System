@@ -1,13 +1,14 @@
 /*
 ====================================================================
 This file defines 3 custom exception classes for an ATM system.
-
-    🔴 Raised when something goes wrong during deposit
+   
+    - Raised when something goes wrong during deposit
     (e.g. depositing negative or zero amount)
-    🔴 Raised when something goes wrong during withdrawal
+    - Raised when something goes wrong during withdrawal
     (e.g. withdrawing invalid amount)
-    🔴 Raised when balance is not enough to withdraw
+    - Raised when balance is not enough to withdraw
     (e.g. withdrawing ₹5000 when balance is ₹1000)
+
 ===================================================================
 */
 

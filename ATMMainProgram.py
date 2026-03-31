@@ -56,17 +56,16 @@ while True:
                 except InsufficientAmountError:
                     print("Minimum amount requirement is Rs.500.00 for Your a/c of XYZ Bank")
                     print("Don't Enter an Exceed amount than Available amount for withdraw. Your a/c doesn't contains Sufficient fund that you are entered... Try Again")
-                    
                 except ValueError:
                     print("Don't enter Alnums, Str & Symbols for Withdraw amount... Try again!")
             case 3:
                 balance_inquiry()
             case 4:
-                print("Thank You... Visiting Again")
+                print("Thank You... Visit Again")
                 break
             case _:
                 print("Invalid Input... Try Again!")
         
     except ValueError:
-        print("Don't enter Alphabets & Symbols for Choice... Try again!")
+        print("Don't enter Alphabets, String & Symbols for Choice... Try again!")
 
